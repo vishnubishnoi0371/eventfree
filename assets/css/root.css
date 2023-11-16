@@ -1,0 +1,155 @@
+:root {
+    /* font size */
+    --small1: 12px;
+    --small2: 11px;
+    --small3: 13px;
+    --small4: 15px;
+    --medium1: 16px;
+    --medium2: 19px;
+    --medium3: 21px;
+    --large1: 28px;
+    --large2: 22px;
+    --large3: 23px;
+    --large4: 38px;
+
+    /* font-weight */
+    --fw-normal: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* color */
+    --white1: #fff;
+    --blue1: #2c49fe;
+    --blue2: #2d3cae;
+    --sky-clr: #01c8ff;
+    --black1: #000;
+
+
+    /* font-family */
+    --ff-2: 'Yantramanav', sans-serif;
+    --ff-1: 'Poppins', sans-serif;
+}
+
+/* font size */
+
+.small1 {
+    font-size: var(--small1);
+}
+
+.small2 {
+    font-size: var(--small2);
+}
+
+.small3 {
+    font-size: var(--small3);
+}
+
+.small4 {
+    font-size: var(--small4);
+}
+
+.medium1 {
+    font-size: var(--medium1);
+}
+
+.medium2 {
+    font-size: var(--medium2);
+}
+
+.medium3 {
+    font-size: var(--medium3);
+}
+
+.large1 {
+    font-size: var(--large1);
+}
+
+.large2 {
+    font-size: var(--large2);
+}
+
+.large3 {
+    font-size: var(--large3);
+}
+
+.large4 {
+    font-size: var(--large4);
+}
+
+/* fw */
+.fw-normal {
+    font-weight: var(--fw-normal);
+}
+
+.fw-medium {
+    font-weight: var(--fw-medium);
+}
+
+.fw-semibold {
+    font-weight: var(--fw-semibold);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+/* color */
+.white1 {
+    color: var(--white1);
+}
+
+.blue1 {
+    color: var(--blue1);
+}
+
+.blue2 {
+    color: var(--blue2);
+}
+
+.sky-clr {
+    color: var(--sky-clr);
+}
+
+
+.black1 {
+    color: var(--black1);
+}
+
+
+
+/* ff */
+.ff-1 {
+    font-family: var(--ff-1);
+}
+
+.ff-2 {
+    font-family: var(--ff-2);
+}
+
+@media (min-width:575.7px) {
+    :root {
+        /* font size */
+        --small1: 12px;
+        --small2: 14px;
+        --small3: 16px;
+        --small4: 18px;
+        --medium1: 20px;
+        --medium2: 24px;
+        --medium3: 25px;
+        --large1: 35px;
+        --large2: 36px;
+        --large3: 48px;
+        --large4: 64px;
+
+        /* font-weight */
+        --fw-normal: 400;
+        --fw-medium: 500;
+        --fw-semibold: 600;
+        --fw-bold: 700;
+
+
+    }
+
+
+}
