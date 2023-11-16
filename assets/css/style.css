@@ -609,13 +609,13 @@
   }
 
   .col-3 {
-      max-width: 25%;
+      width: 25%;
       padding-left: 12px;
       padding-right: 12px;
   }
 
   .col-6 {
-      max-width: 50%;
+      width: 50%;
       padding-left: 12px;
       padding-right: 12px;
   }
@@ -779,6 +779,7 @@
   }
 
   .header-line::after {
+    display: flex;
       content: "";
       width: 10%;
       height: 8px;
@@ -789,6 +790,7 @@
   }
 
   .header-line::before {
+    display: flex;
       content: "";
       width: 90%;
       height: 8px;
