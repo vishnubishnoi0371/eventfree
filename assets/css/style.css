@@ -778,8 +778,12 @@
       position: relative;
   }
 
+  .over-flow {
+      overflow: hidden;
+  }
+
   .header-line::after {
-    display: flex;
+      display: flex;
       content: "";
       width: 10%;
       height: 8px;
@@ -790,7 +794,7 @@
   }
 
   .header-line::before {
-    display: flex;
+      display: flex;
       content: "";
       width: 90%;
       height: 8px;
